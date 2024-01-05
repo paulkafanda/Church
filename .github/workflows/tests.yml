@@ -17,6 +17,9 @@ jobs:
           tools: composer:v2
           coverage: xdebug
 
+      - name: Generate key
+        run: php artisan key:generate
+
       - name: Install Dependencies
         run: composer install --no-interaction --prefer-dist --optimize-autoloader
 
