@@ -29,9 +29,6 @@ jobs:
           node-version: '16.x'
         run: npm install
 
-      - name: Build assets
-        run: npm run dev
-
       - name: Generate key
         run: php artisan key:generate
 
@@ -40,6 +37,9 @@ jobs:
         run: |
           mkdir -p database
           touch database/database.sqlite
+
+      - name: Build assets
+        run: npm run dev
 
       - name: Tests
         env:
