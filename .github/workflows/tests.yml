@@ -32,14 +32,10 @@ jobs:
       - name: Generate key
         run: php artisan key:generate
 
-
       - name: Create Database
         run: |
           mkdir -p database
           touch database/database.sqlite
-
-      - name: Build assets
-        run: npm run dev
 
       - name: Tests
         env:
