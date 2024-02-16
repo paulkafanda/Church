@@ -1,0 +1,3 @@
+GET https://api.scripture.api.bible/v1/bibles
+Accept: application/json
+api-key: 1181b740cb8e9cbb02eb0fac55f6d78f
