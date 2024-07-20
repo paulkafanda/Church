@@ -1,4 +1,5 @@
 # Details
+
 ## Authentification des utilisateurs
 ```
 Laravel offre un système d'authentification intégré qui peut être utilisé pour gérer les utilisateurs. Cela signifie que vous pouvez permettre aux membres de votre église de créer des comptes, de se connecter et de gérer leurs profils. Cela pourrait inclure la modification de leurs informations personnelles, la gestion de leurs préférences de courrier électronique, etc.
